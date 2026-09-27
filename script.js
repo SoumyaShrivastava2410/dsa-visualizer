@@ -2,17 +2,17 @@ let arr=[50,30,80,20,60];
 let i=0;
 let j=0;
 function display () { box.innerHTML="";
-                     arr.forEach((x,k))=>{
-                       let bar=document.createElement(div");
+                     arr.forEach((x,k)=>{
+                       let bar=document.createElement("div");
                        bar.style.height=x*3+"px";
                        bar.innerText=x;
                        if(k==j|| k==j+1)
-                         bar.style.backgroundcolor="red";
-                       bpx.appendChild(bar);
+                         bar.style.backgroundColor="red";
+                       box.appendChild(bar);
                        };
                      }
-show(-1,-1)
-next.onclick=functions(){
+display()
+next.onclick=function(){
   if(i>=arr.length-1)
     return ;
   if(j<arr.length-i-1){
@@ -23,5 +23,5 @@ next.onclick=functions(){
     j=0;
     i++;
     }
-  show(j,j+1);
+  display();
 };
