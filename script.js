@@ -9,7 +9,7 @@ function display () { box.innerHTML="";
                        if(k==j|| k==j+1)
                          bar.style.backgroundColor="red";
                        box.appendChild(bar);
-                       };
+                       });
                      }
 display()
 next.onclick=function(){
